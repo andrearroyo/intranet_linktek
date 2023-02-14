@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "s+RLLqhWEJqzqBPOyITfDK2XNbixuKvP5PvO0GrsSDU/ytf2RsRL1MbifjyrCKobfhWBqHTsF6mXnWyyf+cSFw==",
+  "success": true,
+  "projectFilePath": "D:\\Desarrollos\\Peru\\Intranet\\Models_Alertas\\Models_Alertas.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\André\\.nuget\\packages\\mongodb.bson\\2.15.1\\mongodb.bson.2.15.1.nupkg.sha512",
+    "C:\\Users\\André\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

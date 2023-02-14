@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Uu8ArBLHZsEhD6uFhDL9CNkEesJhhZhtyHljejOJVTQ=",
+  "Source": "API.Alertas",
+  "BasePath": "_content/API.Alertas",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,45 @@
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\bin\Debug\net6.0\Data.Alertas.deps.json
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\bin\Debug\net6.0\Data.Alertas.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\bin\Debug\net6.0\Data.Alertas.pdb
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\bin\Debug\net6.0\Models_Alertas.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\bin\Debug\net6.0\Models_Alertas.pdb
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.csproj.AssemblyReference.cache
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.AssemblyInfoInputs.cache
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.AssemblyInfo.cs
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.csproj.CoreCompileInputs.cache
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.csproj.CopyComplete
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\obj\Debug\net6.0\refint\Data.Alertas.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.pdb
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\obj\Debug\net6.0\ref\Data.Alertas.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\bin\Debug\net6.0\Data.Alertas.deps.json
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\bin\Debug\net6.0\Data.Alertas.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\bin\Debug\net6.0\Data.Alertas.pdb
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\bin\Debug\net6.0\Models_Alertas.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\bin\Debug\net6.0\Models_Alertas.pdb
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.csproj.AssemblyReference.cache
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.GeneratedMSBuildEditorConfig.editorconfig
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.AssemblyInfoInputs.cache
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.AssemblyInfo.cs
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.csproj.CoreCompileInputs.cache
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.csproj.CopyComplete
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\obj\Debug\net6.0\refint\Data.Alertas.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.pdb
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Data.Alertas\obj\Debug\net6.0\ref\Data.Alertas.dll
+C:\Desarrollos\Peru\Intranet2022\Data.Alertas\bin\Debug\net6.0\Data.Alertas.deps.json
+C:\Desarrollos\Peru\Intranet2022\Data.Alertas\bin\Debug\net6.0\Data.Alertas.dll
+C:\Desarrollos\Peru\Intranet2022\Data.Alertas\bin\Debug\net6.0\Data.Alertas.pdb
+C:\Desarrollos\Peru\Intranet2022\Data.Alertas\bin\Debug\net6.0\Models_Alertas.dll
+C:\Desarrollos\Peru\Intranet2022\Data.Alertas\bin\Debug\net6.0\Models_Alertas.pdb
+C:\Desarrollos\Peru\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.csproj.AssemblyReference.cache
+C:\Desarrollos\Peru\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollos\Peru\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.AssemblyInfoInputs.cache
+C:\Desarrollos\Peru\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.AssemblyInfo.cs
+C:\Desarrollos\Peru\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.csproj.CoreCompileInputs.cache
+C:\Desarrollos\Peru\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.csproj.CopyComplete
+C:\Desarrollos\Peru\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.dll
+C:\Desarrollos\Peru\Intranet2022\Data.Alertas\obj\Debug\net6.0\refint\Data.Alertas.dll
+C:\Desarrollos\Peru\Intranet2022\Data.Alertas\obj\Debug\net6.0\Data.Alertas.pdb
+C:\Desarrollos\Peru\Intranet2022\Data.Alertas\obj\Debug\net6.0\ref\Data.Alertas.dll

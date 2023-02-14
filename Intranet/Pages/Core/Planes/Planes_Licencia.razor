@@ -1,0 +1,250 @@
+﻿@page "/control/planes/licencia"
+@inject IPaqueteService paqueteService
+@inject ILicenciaService licenciaService
+@inject ISalaService salaService
+@inject ISistemaService sistemaService
+
+<div class="row">
+    <div class="col-lg-12">
+        <h5> Asignación de licencia</h5>
+
+        <div class="row">
+            <div class="col-xl-8">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="float-end dropdown ms-2">
+                            <a class="text-muted" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="mdi mdi-dots-horizontal font-size-18"></i>
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-end">
+                                <a class="dropdown-item" @onclick="Actualizar">Actualizar</a>
+                                <a class="dropdown-item" @onclick="Exportar">Exportar</a>
+                            </div>
+                        </div>
+
+                        <div class="table-responsive">
+                            <TelerikGrid Data=@listaSala
+                                         Pageable="true"
+                                         Groupable="false"
+                                         Sortable="true"
+                                         Resizable="true"
+                                         Reorderable="true"
+                                         ScrollMode=" Telerik.Blazor.GridScrollMode.Scrollable"
+                                         PageSize="10"
+                                         Class="table table-striped"
+                                         Navigable="true">
+                                <GridToolBar>
+
+                                    <div class="col-xs-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 card-container">
+                                        <div class="col-xs-10 col-xl-10 col-lg-10 col-md-10 col-sm-10 card-container" style="padding-left: 0px !important;">
+
+                                            <small style="margin-left:25px; "> Total de registros: @listaSala.Count()</small>
+
+                                        </div>
+                                        <div class="col-xs-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 card-container">
+                                            <GridSearchBox> </GridSearchBox>
+                                        </div>
+                                    </div>
+                                </GridToolBar>
+                                <GridColumns>
+                                    <GridColumn Field="@nameof(Sala.idSala)" Title="ID" Width="50px" Sortable="false" Filterable="false" />
+                                    <GridColumn Field="@nameof(Sala.nombreConsorcio)" Title="Consorcio" Width="120px" Sortable="false" Filterable="false" />
+                                    <GridColumn Field="@nameof(Sala.nombreEmpresa)" Title="Empresa" Width="120px" Sortable="false" Filterable="false" />
+                                    <GridColumn Field="@nameof(Sala.nombre)" Title="Sala" Width="150px" Sortable="false" Filterable="false" />
+                                    <GridColumn Field="@nameof(Sala.estado)" Title="Estado" Width="100px" Sortable="false" Filterable="false">
+                                        <Template>
+                                            @{
+                                                var estado = (context as Sala).estado;
+
+                                                if (estado == 1)
+                                                {
+                                                    <span class="badge badge-pill badge-soft-success font-size-11">Activo</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge badge-pill badge-soft-danger font-size-11">Inactivo</span>
+                                                }
+
+                                            }
+                                        </Template>
+                                    </GridColumn>
+                                    <GridColumn Field="@nameof(Sala.idSala)" Title="Con Licencia" Width="100px" Sortable="false" Filterable="false">
+                                        <Template>
+                                            @{
+                                                var sala = (context as Sala).idSala;
+
+                                                var item = listaLicencia.Where(x => x.idSala == sala).Count();
+
+                                                if (item == 1)
+                                                {
+                                                    <span class="badge badge-pill badge-soft-success font-size-11">Sí</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge badge-pill badge-soft-danger font-size-11">No</span>
+                                                }
+                                            }
+                                        </Template>
+                                    </GridColumn>
+                                    <GridColumn Field="@nameof(Sala.idSala)" Title="" Width="120px" Sortable="false" Filterable="false">
+                                        <Template>
+                                            @{
+                                                var idSala = (context as Sala).idSala;
+
+                                                <button type="button" class="btn btn-success btn-sm btn-rounded waves-effect waves-light" 
+                                                        data-bs-toggle="modal" 
+                                                        data-bs-target=".transaction-detailModal"
+                                                        @onclick="@(()=>Detalle(idSala))">
+                                                    Detalle
+                                                </button>
+
+                                            }
+                                        </Template>
+                                    </GridColumn>
+                                </GridColumns>
+                            </TelerikGrid>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title mb-5">Detalle Sala</h4>
+                        
+                        <form>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="mb-3">
+                                        <label for="formrow-email-input" class="form-label">ID</label>
+                                        <input type="number" class="form-control" id="formrow-email-input" placeholder="" disabled @bind-value="licencia.idSala">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="mb-3">
+                                        <label for="formrow-password-input" class="form-label">Sala</label>
+                                        <input type="text" class="form-control" id="formrow-password-input" placeholder="" disabled @bind-value="licencia.nombreSala">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3" style="margin-bottom: 0px !important;" >
+                                <label for="formrow-firstname-input" class="form-label">Paquete</label>
+                                <select id="formrow-inputState" class="form-select" disabled="@IsDisabled">
+                                    <option value="0">Seleccione paquete</option>
+                                    @foreach (var item in listaPaquete)
+                                    {
+                                        if(item.idPaquete == licencia.idPaquete)
+                                        {
+                                            <option selected value="@item.idPaquete">@item.nombre</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="@item.idPaquete">@item.nombre</option>
+                                        }
+                                    }
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <small for="formrow-firstname-input" class="form-label ml-2" style="margin-left:10px;">@sistemas</small>
+                            </div>
+                        </form>
+
+
+                        <div class="text-center mt-4">
+                            <button class="btn btn-primary waves-effect waves-light btn-sm" disabled="@IsDisabledEditar" @onclick="Habilitar">
+                                Editar <i class="mdi mdi-arrow-right ms-1"></i>
+                            </button>
+                            <button class="btn btn-success waves-effect waves-light btn-sm mr-3" disabled="@IsDisabledGuardar">
+                                Guardar <i class="mdi mdi-content-save ms-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@code {
+    List<Sala> listaSala { get; set; } = new List<Sala>();
+    List<Paquete> listaPaquete { get; set; } = new List<Paquete>();
+    List<Licencia> listaLicencia { get; set; } = new List<Licencia>();
+    List<Sistema> listaSistema { get; set; } = new List<Sistema>();
+
+    Licencia licencia = new Licencia();
+    string sistemas = "";
+
+    bool cargando = true;
+    bool IsDisabled { get; set; } = true;
+    bool IsDisabledEditar { get; set; } = true;
+    bool IsDisabledGuardar { get; set; } = true;
+
+    async void getDatos()
+    {
+        listaSala = new List<Sala>();
+        listaPaquete = new List<Paquete>();
+        listaLicencia = new List<Licencia>();
+        listaSistema = new List<Sistema>();
+
+        listaPaquete = await paqueteService.GetAll();
+        listaSala = await salaService.GetAll();
+        listaLicencia = await licenciaService.GetAll();
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        cargando = true;
+
+
+        await Task.Run(getDatos);
+    }
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if(firstRender)
+        {
+            getDatos();
+            cargando = false;
+            StateHasChanged();
+        }
+    }
+
+    private void Detalle(int idSala)
+    {
+        licencia = listaLicencia.Where(x => x.idSala == idSala).FirstOrDefault();
+        licencia = licencia == null ? new Licencia() : licencia;
+        sistemas = "";
+
+        if(licencia.idLicencia != 0)
+        {
+            IsDisabledEditar = false;
+            listaSistema = sistemaService.GetAllPaquete(licencia.idPaquete);
+
+            foreach (var item in listaSistema)
+            {
+                sistemas = String.IsNullOrEmpty(sistemas) ? $"{item.nombre} {item.version}, " : sistemas + $"{item.nombre} {item.version}, ";
+            }
+
+            sistemas = sistemas.Substring(0, sistemas.Length - 2);
+        }
+
+        StateHasChanged();
+    }
+
+    private void Habilitar()
+    {
+        IsDisabled = false;
+        IsDisabledGuardar = false;
+        StateHasChanged();
+    }
+
+    private void Actualizar() {}
+    private void Exportar() {}
+    private void Editar(int id) {}
+    private void Asignacion(int id){}
+}

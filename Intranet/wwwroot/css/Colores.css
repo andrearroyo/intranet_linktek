@@ -1,0 +1,9 @@
+﻿:root {
+    --color_primario: #fe821d;
+    --color_primario_hover: #F46E01;
+    --color_success: #009397;
+    --color_success_hover: #00B0B4;
+    --color_danger: #FF4444;
+    --color_warning: #FFDB34;
+    --color_bg_login: #FDD2B0;
+}

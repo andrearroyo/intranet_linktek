@@ -1,0 +1,252 @@
+﻿@font-face {
+    font-family: "Material Design Icons";
+    src: url(../fonts/materialdesignicons-webfont.eot?v=5.8.55);
+    src: url(../fonts/materialdesignicons-webfont.eot?#iefix&v=5.8.55) format("embedded-opentype"),url(../fonts/materialdesignicons-webfont.woff2?v=5.8.55) format("woff2"),url(../fonts/materialdesignicons-webfont.woff?v=5.8.55) format("woff"),url(../fonts/materialdesignicons-webfont.ttf?v=5.8.55) format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+.mdi-set, .mdi:before {
+    display: inline-block;
+    font: normal normal normal 24px/1 "Material Design Icons";
+    font-size: inherit;
+    text-rendering: auto;
+    line-height: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.mdi-eye-outline::before {
+    content: "\F06D0";
+}
+.mdi-chevron-double-down::before {
+    content: "\F013C"
+}
+
+.mdi-chevron-double-left::before {
+    content: "\F013D"
+}
+
+.mdi-chevron-double-right::before {
+    content: "\F013E"
+}
+
+.mdi-chevron-double-up::before {
+    content: "\F013F"
+}
+
+.mdi-chevron-down::before {
+    content: "\F0140"
+}
+
+.mdi-chevron-down-box::before {
+    content: "\F09D6"
+}
+
+.mdi-chevron-down-box-outline::before {
+    content: "\F09D7"
+}
+
+.mdi-chevron-down-circle::before {
+    content: "\F0B26"
+}
+
+.mdi-chevron-down-circle-outline::before {
+    content: "\F0B27"
+}
+
+.mdi-chevron-left::before {
+    content: "\F0141"
+}
+
+.mdi-chevron-left-box::before {
+    content: "\F09D8"
+}
+
+.mdi-chevron-left-box-outline::before {
+    content: "\F09D9"
+}
+
+.mdi-chevron-left-circle::before {
+    content: "\F0B28"
+}
+
+.mdi-chevron-left-circle-outline::before {
+    content: "\F0B29"
+}
+
+.mdi-chevron-right::before {
+    content: "\F0142"
+}
+
+.mdi-chevron-right-box::before {
+    content: "\F09DA"
+}
+
+.mdi-chevron-right-box-outline::before {
+    content: "\F09DB"
+}
+
+.mdi-chevron-right-circle::before {
+    content: "\F0B2A"
+}
+
+.mdi-chevron-right-circle-outline::before {
+    content: "\F0B2B"
+}
+
+.mdi-chevron-triple-down::before {
+    content: "\F0DB9"
+}
+
+.mdi-chevron-triple-left::before {
+    content: "\F0DBA"
+}
+
+.mdi-chevron-triple-right::before {
+    content: "\F0DBB"
+}
+
+.mdi-chevron-triple-up::before {
+    content: "\F0DBC"
+}
+
+.mdi-chevron-up::before {
+    content: "\F0143"
+}
+
+.mdi-chevron-up-box::before {
+    content: "\F09DC"
+}
+
+.mdi-chevron-up-box-outline::before {
+    content: "\F09DD"
+}
+
+.mdi-chevron-up-circle::before {
+    content: "\F0B2C"
+}
+
+.mdi-chevron-up-circle-outline::before {
+    content: "\F0B2D"
+}
+
+.mdi-dots-grid::before {
+    content: "\F15FC";
+}
+
+.mdi-dots-hexagon::before {
+    content: "\F15FF";
+}
+
+.mdi-dots-horizontal::before {
+    content: "\F01D8";
+}
+
+.mdi-dots-horizontal-circle::before {
+    content: "\F07C3";
+}
+
+.mdi-dots-horizontal-circle-outline::before {
+    content: "\F0B8D";
+}
+
+.mdi-dots-square::before {
+    content: "\F15FD";
+}
+
+.mdi-dots-triangle::before {
+    content: "\F15FE";
+}
+
+.mdi-dots-vertical::before {
+    content: "\F01D9";
+}
+
+.mdi-dots-vertical-circle::before {
+    content: "\F07C4";
+}
+
+.mdi-dots-vertical-circle-outline::before {
+    content: "\F0B8E";
+}
+
+.mdi-arrow-up::before {
+    content: "\F005D";
+}
+
+.mdi-arrow-up-bold::before {
+    content: "\F0737";
+}
+
+.mdi-arrow-up-bold-box::before {
+    content: "\F0738";
+}
+
+.mdi-arrow-up-bold-box-outline::before {
+    content: "\F0739";
+}
+
+.mdi-arrow-up-bold-circle::before {
+    content: "\F005F";
+}
+
+.mdi-arrow-up-bold-circle-outline::before {
+    content: "\F0060";
+}
+
+.mdi-arrow-up-bold-hexagon-outline::before {
+    content: "\F0061";
+}
+
+.mdi-arrow-up-bold-outline::before {
+    content: "\F09C7";
+}
+
+.mdi-arrow-up-box::before {
+    content: "\F06C3";
+}
+
+.mdi-arrow-up-circle::before {
+    content: "\F0CE1";
+}
+
+.mdi-arrow-up-circle-outline::before {
+    content: "\F0CE2";
+}
+
+.mdi-arrow-up-down::before {
+    content: "\F0E79";
+}
+
+.mdi-arrow-up-down-bold::before {
+    content: "\F0E7A";
+}
+
+.mdi-arrow-up-down-bold-outline::before {
+    content: "\F09C8";
+}
+
+.mdi-arrow-up-drop-circle::before {
+    content: "\F0062";
+}
+
+.mdi-arrow-up-drop-circle-outline::before {
+    content: "\F0063";
+}
+
+.mdi-arrow-up-thick::before {
+    content: "\F005E";
+}
+
+.mdi-arrow-up-thin-circle-outline::before {
+    content: "\F1597";
+}
+
+.mdi-account-circle::before {
+    content: "\F0009";
+}
+
+.mdi-account-circle-outline::before {
+    content: "\F0B55";
+}

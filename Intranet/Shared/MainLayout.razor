@@ -1,0 +1,45 @@
+﻿@inherits LayoutComponentBase
+@layout TelerikLayout
+@inject IJSRuntime js
+
+
+<PageTitle>LAFS - v1.0</PageTitle>
+
+<div id="layout-wrapper">
+    <Menu />
+    <div class="main-content">
+        <div class="page-content">
+            <div class="container-fluid">
+                @Body
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="rightbar-overlay"></div>
+
+<footer class="footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                2023 © Linktek.
+            </div>
+            <div class="col-sm-6">
+                <div class="text-sm-end d-none d-sm-block">
+                    Sistema de Intranet LAFS
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await js.InvokeVoidAsync("initializeComponent");
+            StateHasChanged();
+        }
+    }
+}

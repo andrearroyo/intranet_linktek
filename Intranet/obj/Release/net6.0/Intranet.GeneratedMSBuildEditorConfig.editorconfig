@@ -1,0 +1,113 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Intranet
+build_property.RootNamespace = Intranet
+build_property.ProjectDir = C:\Desarrollos\Peru\Intranet2022\Intranet\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Desarrollos\Peru\Intranet2022\Intranet
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Pages/Core/ClientesExternos/CE_Consorcio.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29yZVxDbGllbnRlc0V4dGVybm9zXENFX0NvbnNvcmNpby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Pages/Core/ClientesExternos/CE_Empresa.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29yZVxDbGllbnRlc0V4dGVybm9zXENFX0VtcHJlc2EucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Pages/Core/ClientesExternos/CE_Sala.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29yZVxDbGllbnRlc0V4dGVybm9zXENFX1NhbGEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Pages/Core/Planes/Planes_Licencia.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29yZVxQbGFuZXNcUGxhbmVzX0xpY2VuY2lhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Pages/Core/Planes/Planes_Paquete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29yZVxQbGFuZXNcUGxhbmVzX1BhcXVldGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Pages/Core/Planes/Planes_Sistemas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29yZVxQbGFuZXNcUGxhbmVzX1Npc3RlbWFzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Shared/ControlCliente/SidebarCliente.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENvbnRyb2xDbGllbnRlXFNpZGViYXJDbGllbnRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Shared/Header.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhlYWRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Shared/LoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Shared/Sidebar.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNpZGViYXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Shared/SidebarGeneral.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNpZGViYXJHZW5lcmFsLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Shared/TelerikLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRlbGVyaWtMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-lbu036tguj
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-349eebs39z
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Desarrollos/Peru/Intranet2022/Intranet/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

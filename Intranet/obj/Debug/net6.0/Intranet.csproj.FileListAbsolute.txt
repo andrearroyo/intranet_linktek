@@ -1,0 +1,180 @@
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\bin\Debug\net6.0\appsettings.Development.json
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\bin\Debug\net6.0\appsettings.json
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\bin\Debug\net6.0\Intranet.staticwebassets.runtime.json
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\bin\Debug\net6.0\Intranet.exe
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\bin\Debug\net6.0\Intranet.deps.json
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\bin\Debug\net6.0\Intranet.runtimeconfig.json
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\bin\Debug\net6.0\Intranet.dll
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\bin\Debug\net6.0\Intranet.pdb
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\bin\Debug\net6.0\CurrieTechnologies.Razor.SweetAlert2.dll
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\bin\Debug\net6.0\Models_core.dll
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\bin\Debug\net6.0\Models_core.pdb
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\obj\Debug\net6.0\Intranet.csproj.AssemblyReference.cache
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\obj\Debug\net6.0\Intranet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\obj\Debug\net6.0\Intranet.AssemblyInfoInputs.cache
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\obj\Debug\net6.0\Intranet.AssemblyInfo.cs
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\obj\Debug\net6.0\Intranet.csproj.CoreCompileInputs.cache
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\obj\Debug\net6.0\Intranet.MvcApplicationPartsAssemblyInfo.cache
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\obj\Debug\net6.0\Intranet.RazorAssemblyInfo.cache
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\obj\Debug\net6.0\Intranet.RazorAssemblyInfo.cs
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\obj\Debug\net6.0\staticwebassets.build.json
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\obj\Debug\net6.0\staticwebassets.development.json
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\obj\Debug\net6.0\scopedcss\bundle\Intranet.styles.css
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\obj\Debug\net6.0\scopedcss\projectbundle\Intranet.bundle.scp.css
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\obj\Debug\net6.0\Intranet.csproj.CopyComplete
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\obj\Debug\net6.0\Intranet.dll
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\obj\Debug\net6.0\refint\Intranet.dll
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\obj\Debug\net6.0\Intranet.pdb
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\obj\Debug\net6.0\Intranet.genruntimeconfig.cache
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Intranet\obj\Debug\net6.0\ref\Intranet.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\appsettings.Development.json
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\appsettings.json
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Intranet.staticwebassets.runtime.json
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Intranet.exe
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Intranet.deps.json
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Intranet.runtimeconfig.json
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Intranet.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Intranet.pdb
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\CurrieTechnologies.Razor.SweetAlert2.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Telerik.DataSource.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Telerik.Documents.SpreadsheetStreaming.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Telerik.Recurrence.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Telerik.Blazor.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Telerik.Zip.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Models_core.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Models_core.pdb
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.csproj.AssemblyReference.cache
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.AssemblyInfoInputs.cache
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.AssemblyInfo.cs
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.csproj.CoreCompileInputs.cache
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.MvcApplicationPartsAssemblyInfo.cache
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.RazorAssemblyInfo.cache
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.RazorAssemblyInfo.cs
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\staticwebassets.build.json
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\staticwebassets.development.json
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\scopedcss\bundle\Intranet.styles.css
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\scopedcss\projectbundle\Intranet.bundle.scp.css
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.csproj.CopyComplete
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\refint\Intranet.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.pdb
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.genruntimeconfig.cache
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\ref\Intranet.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\appsettings.Development.json
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\appsettings.json
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Intranet.staticwebassets.runtime.json
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Intranet.exe
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Intranet.deps.json
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Intranet.runtimeconfig.json
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Intranet.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Intranet.pdb
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\CurrieTechnologies.Razor.SweetAlert2.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Telerik.DataSource.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Telerik.Documents.SpreadsheetStreaming.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Telerik.Recurrence.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Telerik.Blazor.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Telerik.Zip.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Models_core.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\bin\Debug\net6.0\Models_core.pdb
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.csproj.AssemblyReference.cache
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.GeneratedMSBuildEditorConfig.editorconfig
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.AssemblyInfoInputs.cache
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.AssemblyInfo.cs
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.csproj.CoreCompileInputs.cache
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.MvcApplicationPartsAssemblyInfo.cache
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.RazorAssemblyInfo.cache
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.RazorAssemblyInfo.cs
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\staticwebassets\msbuild.Intranet.Microsoft.AspNetCore.StaticWebAssets.props
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\staticwebassets\msbuild.build.Intranet.props
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Intranet.props
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Intranet.props
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\staticwebassets.pack.json
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\staticwebassets.build.json
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\staticwebassets.development.json
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\scopedcss\bundle\Intranet.styles.css
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\scopedcss\projectbundle\Intranet.bundle.scp.css
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.csproj.CopyComplete
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\refint\Intranet.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.pdb
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.genruntimeconfig.cache
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Intranet\obj\Debug\net6.0\ref\Intranet.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\appsettings.Development.json
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\appsettings.json
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Intranet.staticwebassets.runtime.json
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Intranet.exe
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Intranet.deps.json
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Intranet.runtimeconfig.json
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Intranet.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Intranet.pdb
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\CurrieTechnologies.Razor.SweetAlert2.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Telerik.DataSource.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Telerik.Documents.SpreadsheetStreaming.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Telerik.Recurrence.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Telerik.Blazor.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Telerik.Zip.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Models_core.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Models_core.pdb
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.csproj.AssemblyReference.cache
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.AssemblyInfoInputs.cache
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.AssemblyInfo.cs
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.csproj.CoreCompileInputs.cache
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.MvcApplicationPartsAssemblyInfo.cache
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.RazorAssemblyInfo.cache
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.RazorAssemblyInfo.cs
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\staticwebassets\msbuild.Intranet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\staticwebassets\msbuild.build.Intranet.props
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Intranet.props
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Intranet.props
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\staticwebassets.build.json
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\staticwebassets.development.json
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\scopedcss\bundle\Intranet.styles.css
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\scopedcss\projectbundle\Intranet.bundle.scp.css
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.csproj.CopyComplete
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\refint\Intranet.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.pdb
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\Intranet.genruntimeconfig.cache
+C:\Desarrollos\Peru\Intranet2022\Intranet\obj\Debug\net6.0\ref\Intranet.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Blazor-ApexCharts.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\Microsoft.JSInterop.dll
+C:\Desarrollos\Peru\Intranet2022\Intranet\bin\Debug\net6.0\System.IO.Pipelines.dll

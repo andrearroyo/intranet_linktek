@@ -1,0 +1,48 @@
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Models_core\bin\Debug\net6.0\Models_core.deps.json
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Models_core\bin\Debug\net6.0\Models_core.dll
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Models_core\bin\Debug\net6.0\Models_core.pdb
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Models_core\obj\Debug\net6.0\Models_core.csproj.AssemblyReference.cache
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Models_core\obj\Debug\net6.0\Models_core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Models_core\obj\Debug\net6.0\Models_core.AssemblyInfoInputs.cache
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Models_core\obj\Debug\net6.0\Models_core.AssemblyInfo.cs
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Models_core\obj\Debug\net6.0\Models_core.csproj.CoreCompileInputs.cache
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Models_core\obj\Debug\net6.0\Models_core.dll
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Models_core\obj\Debug\net6.0\refint\Models_core.dll
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Models_core\obj\Debug\net6.0\Models_core.pdb
+D:\Desarollos\2022\Linktek\Intranet\slnIntranet\Models_core\obj\Debug\net6.0\ref\Models_core.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\bin\Debug\net6.0\Models_core.deps.json
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\bin\Debug\net6.0\Models_core.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\bin\Debug\net6.0\Models_core.pdb
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.csproj.AssemblyReference.cache
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.AssemblyInfoInputs.cache
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.AssemblyInfo.cs
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.csproj.CoreCompileInputs.cache
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\obj\Debug\net6.0\refint\Models_core.dll
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.pdb
+D:\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\obj\Debug\net6.0\ref\Models_core.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\bin\Debug\net6.0\Models_core.deps.json
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\bin\Debug\net6.0\Models_core.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\bin\Debug\net6.0\Models_core.pdb
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.csproj.AssemblyReference.cache
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.GeneratedMSBuildEditorConfig.editorconfig
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.AssemblyInfoInputs.cache
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.AssemblyInfo.cs
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.csproj.CoreCompileInputs.cache
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\obj\Debug\net6.0\refint\Models_core.dll
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.pdb
+D:\BACKUP_LAPTOP_OMEN\DISCO D\Desarollos\2022\Linktek\Intranet\Intranet2022\Models_core\obj\Debug\net6.0\ref\Models_core.dll
+C:\Desarrollos\Peru\Intranet2022\Models_core\bin\Debug\net6.0\Models_core.deps.json
+C:\Desarrollos\Peru\Intranet2022\Models_core\bin\Debug\net6.0\Models_core.dll
+C:\Desarrollos\Peru\Intranet2022\Models_core\bin\Debug\net6.0\Models_core.pdb
+C:\Desarrollos\Peru\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.csproj.AssemblyReference.cache
+C:\Desarrollos\Peru\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Desarrollos\Peru\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.AssemblyInfoInputs.cache
+C:\Desarrollos\Peru\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.AssemblyInfo.cs
+C:\Desarrollos\Peru\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.csproj.CoreCompileInputs.cache
+C:\Desarrollos\Peru\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.dll
+C:\Desarrollos\Peru\Intranet2022\Models_core\obj\Debug\net6.0\refint\Models_core.dll
+C:\Desarrollos\Peru\Intranet2022\Models_core\obj\Debug\net6.0\Models_core.pdb
+C:\Desarrollos\Peru\Intranet2022\Models_core\obj\Debug\net6.0\ref\Models_core.dll

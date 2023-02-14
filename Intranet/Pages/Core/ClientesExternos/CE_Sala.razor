@@ -1,0 +1,360 @@
+﻿@page "/control/cliente_externo/sala"
+
+@inject IConsorcioService consorcioService
+@inject IEmpresaService empresaService
+@inject ISalaService salaService
+
+@inject SweetAlertService Swal
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+
+                <div class="float-end dropdown ms-2">
+                    <a class="text-muted" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="mdi mdi-dots-horizontal font-size-18"></i>
+                    </a>
+
+                    <div class="dropdown-menu dropdown-menu-end">
+                        <a class="dropdown-item" @onclick="Nuevo">Nuevo</a>
+                        <a class="dropdown-item" @onclick="Actualizar">Actualizar</a>
+                        <a class="dropdown-item" @onclick="Exportar">Exportar</a>
+                    </div>
+                </div>
+
+                <h4 class="card-title mb-4">Listado de salas</h4>
+
+                @if (listaSala == null)
+                {
+                    <div class="spinner"></div>
+                }
+                else
+                {
+                    <div class="table-responsive">
+
+                    @if(listaSala.Count()> 0 || listaSala != null)
+                    {
+                        <table class="table align-middle table-nowrap mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th class="align-middle">Id</th>
+                                <th class="align-middle">Consorcio</th>
+                                <th class="align-middle">Empresa</th>
+                                <th class="align-middle">Sala</th>
+                                <th class="align-middle">Autogenerado</th>
+                                <th class="align-middle">Estado</th>
+                                <th class="align-middle">Opciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            @foreach(var item in listaSala)
+                            {
+                                <tr>
+                                    <td><a href="javascript: void(0);" class="text-body fw-bold">@item.idSala</a> </td>
+                                    <td>@item.nombreConsorcio</td>
+                                    <td>@item.nombreEmpresa</td>
+                                    <td>@item.nombre</td>
+                                    <td>@item.autogenerado</td>
+                                    <td>
+                                        @if(item.estado == 1)
+                                        {
+                                            <span class="badge badge-pill badge-soft-success font-size-11">Activo</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge badge-pill badge-soft-danger font-size-11">inactivo</span>
+                                        }
+                                    </td>
+                                    <td>
+                                        <!-- Button trigger modal -->
+                                        <button type="button" @onclick="() => Editar(item.idSala)" class="btn btn-warning btn-sm btn-rounded waves-effect waves-light" data-bs-toggle="modal" data-bs-target=".transaction-detailModal">
+                                            Editar
+                                        </button>
+                                    </td>
+                                </tr>
+                            }                                                                                
+                        </tbody>
+                    </table>
+                    }                  
+                </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@if (mostrarModal)
+{
+    <div class="modal fade bs-example-modal-lg show" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-modal="true" role="dialog" style="display: block;">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">@categoria Sala</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" @onclick="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="lblConsorcio" class="col-form-label">Consorcio:</label>
+                            <select class="form-select" @onchange="changeConsorcio">
+                                @foreach (var item in listaConsorcio)
+                                {
+                                    if(itemSala.idConsorcio == item.id)
+                                    {
+                                        <option value="@item.id" selected>@item.nombre</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@item.id">@item.nombre</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+                        <div class="">
+                            <label for="lblEmpresa" class="col-form-label">Empresa:</label>
+                            <select class="form-select" @bind="@itemSala.idEmpresa" disabled="@(listaConsorcio.Count()==1 ? false : disabledEmpresa)">
+                                @foreach (var item in listaEmpresa)
+                                {
+                                    if (itemSala.idEmpresa == item.idEmpresa)
+                                        {
+                                            <option value="@item.idEmpresa" selected>@item.nombre</option>
+                                        }
+                                        else
+                                        {
+                                            <option value="@item.idEmpresa">@item.nombre</option>
+                                        }
+                                }
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="lblSala" class="col-form-label">Sala:</label>
+                            <input type="text" class="form-control" id="lblSala" @bind-value="@itemSala.nombre">
+                        </div>
+                        <div class="col-12 d-flex">
+                            <div class="col-8" style="margin-right: 5px;">
+                                <div class="">
+                                    <label for="lblDireccion" class="col-form-label">Dirección:</label>
+                                    <input type="text" class="form-control" id="lblDireccion" @bind-value="@itemSala.direccion">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="">
+                                    <label for="lblUbigeo" class="col-form-label">Ubigeo:</label>
+                                    <input type="text" class="form-control" id="lblUbigeo" @bind-value="@itemSala.ubigeo">
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+                        <div class="col-12 d-flex">
+
+                            @if(itemSala.idSala == 0)
+                            {
+                                <div class="col-4" style="margin-right: 5px;">
+                                <div class="">
+                                    <label for="lblLlave" class="col-form-label">Llave:</label>
+                                    <input type="text" class="form-control" id="lblLlave" @bind-value="@itemSala.llave" >
+                                </div>
+                            </div>
+                            <div class="col-4" style="margin-right: 5px;">
+                                <div class="">
+                                    <label for="lblAutogenerado" class="col-form-label">Autogenerado:</label>
+                                    <input type="text" class="form-control" id="lblAutogenerado" @bind-value="@itemSala.autogenerado" >
+                                </div>
+                            </div>
+                            }
+
+                            <div class="col-4" style="margin-right: 5px;">
+                                <div class="">
+                                    <label for="optEstado" class="col-form-label">Estado:</label>
+                                    <select class="form-select" @bind="@itemSala.estado">
+                                        <option value= "-1">Seleccione estado</option>
+                                        @foreach (var item in listaEstados)
+                                        {
+                                            if(item.id == itemSala.estado)
+                                            {
+                                                <option value="@item.id" selected>@item.nombre</option>
+                                            }
+                                            else
+                                            {
+                                                <option value="@item.id">@item.nombre</option>
+                                            }
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" @onclick="Close">Cancelar</button>
+                    <button type="button" class="btn btn-primary" @onclick="Registrar">Registrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-backdrop fade show"></div>
+}
+
+
+
+@code {
+    List<Consorcio> listaConsorcio { get; set; }
+    List<Empresa> listaEmpresa { get; set; }
+    List<Sala> listaSala { get; set; }
+    Sala itemSala = new Sala();
+    lstEstados estados = new lstEstados();
+    List<lstEstados> listaEstados { get; set; }
+
+    bool mostrarModal = false;
+    string categoria = "";
+
+    //estilos
+    bool disabledEmpresa = false;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Run(getSalas);
+    }
+
+    private async void getSalas()
+    {
+        listaConsorcio = new List<Consorcio>();
+        listaEmpresa = new List<Empresa>();
+        listaSala = new List<Sala>();
+        listaEstados = estados.getEstados();
+
+        listaConsorcio = await consorcioService.GetAll();
+        listaEmpresa = await empresaService.GetAll();
+        listaSala = await salaService.GetAll();
+    }
+
+    void Nuevo()
+    {
+        itemSala = new Sala();
+        categoria = "Nueva";
+        mostrarModal = true;
+        disabledEmpresa = true;
+        StateHasChanged();
+    }
+
+    void Editar(int id)
+    {
+        try
+        {
+            itemSala = new Sala();
+            categoria = "Editar";
+            itemSala = listaSala.Where(x=>x.idSala == id).FirstOrDefault();
+            mostrarModal = true;
+            disabledEmpresa = true;
+            StateHasChanged();
+        }
+        catch (Exception ex)
+        {
+            itemSala = null;
+        }
+    }
+
+    async void Registrar()
+    {
+        try
+        {
+            //esta registrando no editando
+            if(itemSala.idSala == 0)
+            {
+                if(String.IsNullOrEmpty(itemSala.nombre) || String.IsNullOrEmpty(itemSala.autogenerado) || String.IsNullOrEmpty(itemSala.llave))
+                {
+                    await Swal.FireAsync("Alerta", "Todos los campos deben estar llenos para proceder con el registro", SweetAlertIcon.Error);
+                }
+                else
+                {
+                    bool rptaInsert = salaService.Insertar(itemSala);
+                    if (rptaInsert)
+                    { 
+                        await Swal.FireAsync("Realizado", "El proceso se ha realizado con éxito", SweetAlertIcon.Success); 
+                        Close();
+                    }
+                    else
+                    {
+                        await Swal.FireAsync("Alerta", "Hubo un problema al registar los datos de la sala", SweetAlertIcon.Error); 
+                    }
+
+                }
+            }
+            //quiere decir que se esta insertando
+            else
+            {
+                if(String.IsNullOrEmpty(itemSala.nombre) || String.IsNullOrEmpty(itemSala.autogenerado) || String.IsNullOrEmpty(itemSala.llave))
+                {
+                    await Swal.FireAsync("Alerta", "Todos los campos deben estar llenos para proceder con el registro", SweetAlertIcon.Error);
+                }
+                else
+                {
+                    bool rptaInsert = salaService.Update(itemSala);
+                    if (rptaInsert)
+                    { 
+                        await Swal.FireAsync("Realizado", "El proceso se ha realizado con éxito", SweetAlertIcon.Success); 
+                        Close();
+                    }
+                    else
+                    {
+                        await Swal.FireAsync("Alerta", "Hubo un problema al actualizar los datos de la sala", SweetAlertIcon.Error); 
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            await Swal.FireAsync("Alerta", $"hubo un error en: {ex.Message.ToString()}", SweetAlertIcon.Warning); 
+        }
+        getSalas();
+        StateHasChanged();
+    }
+
+
+    async void Actualizar()
+    {
+        listaConsorcio = new List<Consorcio>();
+        listaEmpresa = new List<Empresa>();
+        listaSala = new List<Sala>();
+        listaEstados = estados.getEstados();
+
+        listaConsorcio = await consorcioService.GetAll();
+        listaEmpresa = await empresaService.GetAll();
+        listaSala = await salaService.GetAll();
+
+        StateHasChanged();
+    }
+
+    void Exportar()
+    {
+
+    }
+
+    void Close()
+    {
+        mostrarModal = false;
+        StateHasChanged();
+    }
+
+    void changeConsorcio(ChangeEventArgs e)
+    {
+        itemSala.idConsorcio = Convert.ToInt32(e.Value.ToString());
+
+        if (listaConsorcio.Count() > 1) listaEmpresa = listaEmpresa.Where(x => x.idConsorcio == itemSala.idConsorcio).ToList();
+
+        disabledEmpresa = false;
+        StateHasChanged();
+    }
+
+}

@@ -1,0 +1,102 @@
+﻿
+
+.k-grid-header {
+    border-bottom-width: 0px !important;
+}
+
+.k-grid-search {
+    border-bottom: 0px !important;
+    width: 100% !important;
+}
+
+.k-input {
+    background-color: white !important;
+}
+
+.k-grid {
+    border-color: rgba(0,0,0,0) !important;
+    font-size: 11px !important;
+    /*line-height: 0.5;*/
+}
+
+    .k-grid .k-grid-header-sticky, .k-grid .k-grid-content-sticky, .k-grid .k-grid-footer-sticky {
+        border-right-width: 0px;
+    }
+
+    .k-grid .k-master-row .k-grid-content-sticky {
+        border-color: rgba(0, 0, 0, 0.5) !important;
+        border-bottom-color: rgba(0, 0, 0, 0) !important;
+    }
+
+    .k-grid td {
+        border-width: 0 0 0px 0px !important;
+        vertical-align: middle;
+    }
+
+.k-grid-header th.k-grid-header-sticky, .k-grid-header td.k-grid-header-sticky, .k-grid-header .k-grid-header-sticky.k-sorted {
+    padding: 14px !important;
+}
+
+.k-grid th, .k-grid td {
+    padding: 14px !important;
+}
+
+
+.swal2-icon.swal2-success [class^=swal2-success-line] {
+    background-color: var(--color_primario) !important;
+}
+
+.swal2-icon.swal2-success .swal2-success-ring {
+    border: 0.25em solid var(--color_primario) !important;
+}
+
+.bg-success.bg-soft {
+    background-color: rgba(0, 147, 151, 0.25) !important;
+}
+
+.k-input-inner {
+    font-size: 12px !important;
+}
+
+.swal2-styled.swal2-confirm {
+    background-color: var(--color_primario) !important;
+}
+
+.k-grid-header th.k-grid-header-sticky, .k-grid-header td.k-grid-header-sticky, .k-grid-header .k-grid-header-sticky.k-sorted {
+    background-color: var(--color_primario);
+    color: white !important;
+    border-radius: 10px !important;
+}
+
+.k-grid-header {
+    border-bottom-width: 0px !important;
+    background-color: var(--color_primario) !important;
+    color: white !important;
+    border-radius: 10px !important;
+}
+
+.k-grid table tr:hover .k-grid-header-sticky, .k-grid table tr:hover .k-grid-footer-sticky, .k-grid table tr.k-state-hover .k-grid-header-sticky, .k-grid table tr.k-state-hover .k-grid-footer-sticky, .k-grid table tr.k-hover .k-grid-header-sticky, .k-grid table tr.k-hover .k-grid-footer-sticky {
+    background-color: var(--color_primario);
+    color: white !important;
+    border-radius: 10px !important;
+}
+
+.k-grid-header-locked > table,
+.k-grid-header-wrap > table {
+    margin-bottom: -12px !important;
+    margin-top: -12px !important;
+}
+
+.table > :not(:first-child) {
+    border-top: 0;
+    padding: 0px !important;
+}
+
+.swal2-styled.swal2-confirm:focus {
+    box-shadow: 0 0 0 3px var(--color_primario) !important;
+}
+
+.noti-icon i {
+    font-size: 22px;
+    color: #555b6d !important;
+}
